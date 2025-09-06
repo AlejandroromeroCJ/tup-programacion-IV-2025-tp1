@@ -1,0 +1,19 @@
+@Url = http://localhost:3000
+
+### Crear cálculo (rectángulo)
+POST {{Url}}/rectangulos
+Content-Type: application/json
+
+{
+  "ancho": 10,
+  "alto": 5
+}
+
+### Crear cálculo (cuadrado)
+POST {{Url}}/rectangulos
+Content-Type: application/json
+
+{
+  "ancho": 7,
+  "alto": 7
+}
